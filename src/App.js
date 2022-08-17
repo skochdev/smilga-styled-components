@@ -3,8 +3,8 @@ import { Box } from 'components/Box';
 
 function App() {
   return (
-    <Box as="main" bg="white" color="accent">
-      Hello
+    <Box as="main" bg="white" px={4}>
+      skochdev
     </Box>
   );
 }
