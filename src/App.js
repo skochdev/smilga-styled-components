@@ -1,10 +1,11 @@
 import './App.css';
+import { Box } from 'components/Box';
 
 function App() {
   return (
-    <div className="App">
-      <h1>skochdev</h1>
-    </div>
+    <Box as="main" bg="white" color="accent">
+      Hello
+    </Box>
   );
 }
 
