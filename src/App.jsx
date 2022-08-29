@@ -5,9 +5,11 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Box as="main" bg="white"></Box>
+      <Box as="main" bg="white">
+        template's working
+      </Box>
     </>
   );
 }
 
-export default App;
+export { App };
