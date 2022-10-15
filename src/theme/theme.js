@@ -16,11 +16,11 @@ export const theme = {
     muted: '#b2b2b2',
   },
   fontSizes: {
-    xs: '12px',
-    s: '14px',
-    m: '16px',
-    l: '32px',
-    xl: '64px',
+    xs: '1.2rem',
+    s: '1.4rem',
+    m: '1.6rem',
+    l: '3.2rem',
+    xl: '6.4rem',
   },
   fontWeights: [400, 500, 700, 900],
   lineHeights: {
@@ -36,5 +36,12 @@ export const theme = {
       md: 'box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;',
       lg: 'box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
     },
+  },
+  breakpoints: {
+    xs: '0',
+    sm: '600px',
+    md: '960px',
+    lg: '1280px',
+    xl: '1920px',
   },
 };
