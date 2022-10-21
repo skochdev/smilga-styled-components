@@ -1,9 +1,12 @@
 {
-  "name": "cra-template-skochdev",
+  "name": "smilga-styled-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://skochdev.github.io/cra-template-skochdev",
+  "homepage": "https://skochdev.github.io/smilga-styled-components",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
