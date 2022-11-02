@@ -14,6 +14,8 @@ export const theme = {
     secondary: '#05a',
     accent: '#fda031',
     muted: '#eaeaea',
+    borderColor: '#8a8a8a',
+    boxShadow: 'rgba(80,80,80,0.4)',
   },
   fontSizes: {
     xs: '1.2rem',
@@ -39,9 +41,9 @@ export const theme = {
   },
   breakpoints: {
     xs: '0',
-    sm: '600px',
+    sm: '768px',
     md: '960px',
-    lg: '1280px',
+    lg: '1200px',
     xl: '1920px',
   },
 };
